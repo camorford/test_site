@@ -1,0 +1,421 @@
+/*body {
+	background-image:url("background.png");
+}*/
+
+/*body {
+  background-image: url('bodybg-1.png');
+  background-repeat: round;
+}*/
+
+body {
+  margin:0;
+  font-size: 18px;
+
+background-image: -ms-linear-gradient(top, #FFFFFF 0%, #F3F2F2 75%, #EFEDEE 87.5%, #E0DEDF 93.75%, #D2D0D1 100%);
+background-image: -moz-linear-gradient(top, #FFFFFF 0%, #F3F2F2 75%, #EFEDEE 87.5%, #E0DEDF 93.75%, #D2D0D1 100%);
+background-image: -o-linear-gradient(top, #FFFFFF 0%, #F3F2F2 75%, #EFEDEE 87.5%, #E0DEDF 93.75%, #D2D0D1 100%);
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(0.75, #F3F2F2), color-stop(0.875, #EFEDEE), color-stop(0.9375, #E0DEDF), color-stop(1, #D2D0D1));
+background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #F3F2F2 75%, #EFEDEE 87.5%, #E0DEDF 93.75%, #D2D0D1 100%);
+background-image: linear-gradient(to bottom, #FFFFFF 0%, #F3F2F2 75%, #EFEDEE 87.5%, #E0DEDF 93.75%, #D2D0D1 100%);
+}
+
+
+#header {
+	margin:-8px auto;
+}
+
+#header .top_section {
+background-image: -ms-linear-gradient(top, #373737 0%, #000000 100%);
+background-image: -moz-linear-gradient(top, #373737 0%, #000000 100%);
+background-image: -o-linear-gradient(top, #373737 0%, #000000 100%);
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #373737), color-stop(1, #000000));
+background-image: -webkit-linear-gradient(top, #373737 0%, #000000 100%);
+background-image: linear-gradient(to bottom, #373737 0%, #000000 100%);
+	border-top: 3px solid #fbad18;
+}
+
+#header img {
+	margin: 1% 10%;
+}
+
+#nav { 
+	background-color: #ef4123;	
+	text-align: center;
+	font-size:0;
+	padding: 10px;
+}
+
+#nav ul li {
+	list-style: none;
+	font-size:15px;
+	display: inline;
+}
+
+#nav ul li a {
+	list-style: none;
+	font-size:15px;
+}
+
+
+#section {
+		position:relative;
+		width: 100%;
+    margin:0 auto;
+    clear:left;
+    height:auto;
+    z-index: 0;
+    text-align:center
+}
+
+/*section img {
+	border: 1px solid black;
+}*/
+
+section ul.products li {
+    width: 240px;
+    display: inline-block;
+    vertical-align: top;
+    padding:10px;
+}
+
+#aside {
+  background-color: white;
+  max-width: 200px;
+  top: 23.5%;
+  margin-left: 7%;
+  position: absolute;
+  border: 1px solid black;
+  z-index: 1;
+}
+
+#accordion li {
+	list-style: none;
+  text-transform: none;
+}
+
+#accordion .li_title {
+	list-style-type: disc;
+  text-transform: uppercase;
+}
+
+#accordion a:hover {
+	background-color: #ef4123;
+	color: #FFF;
+}
+
+
+.pricebutton {
+	background-color:#000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:4px 9px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #e3e3e3;
+}
+.pricebutton:hover {
+	background-color:#ff6600;
+}
+.pricebutton:active {
+	position:relative;
+	top:1px;
+}
+
+
+.photo-grid {
+  margin: 1em auto;
+  text-align: center;
+}
+ 
+.photo-grid li {
+/*  border: 0px solid white;*/
+  display: inline-block;
+  margin: 1%;
+  /* width: 289px; */
+  /* overflow: hidden; */
+/*  outline: 1px solid #ECE8E8;*/
+}
+ 
+.photo-grid img {
+	border: 1px solid black;
+  display: block;
+  height: auto;
+  -webkit-transition: all 300ms;
+  -moz-transition: all 300ms;
+  transition: all 300ms;
+  max-width: 100%;
+}
+ 
+.photo-grid figure {
+  height: 243px;
+  overflow: hidden;
+  position: relative;
+  padding: 0 5px 0 5px;
+  margin: 0px;
+}
+ 
+.photo-grid figcaption {
+  background: rgba(0,0,0,0.8);
+  color: white;
+  display: table;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 100;
+}
+ 
+.photo-grid figcaption p {
+  display: table-cell;
+  font-size: 1.5em;
+  position: relative;
+  top: -40px;
+  width: 289px;
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  vertical-align: middle;
+}
+
+.photo-grid li:hover figcaption {
+  opacity: 1;
+}
+
+.photo-grid li:hover figcaption p {
+  -moz-transform: translateY(40px);
+  -webkit-transform: translateY(40px);
+  transform: translateY(40px);
+}
+
+.photo-grid li:hover img {
+  -webkit-transform: scale(1.4);
+  -moz-transform: scale(1.4);
+  transform: scale(1.4);
+}
+
+.box{
+  margin: -6% 36%;
+  float:right;
+}
+
+.container-1{
+  width: 300px;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+}
+
+.container-1 input#search{
+  width: 300px;
+  height: 50px;
+  background: #ffffff;
+  border: none;
+  font-size: 10pt;
+  float: left;
+  color: #262626;
+  padding-left: 45px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+ 
+   
+    -webkit-transition: background .55s ease;
+  -moz-transition: background .55s ease;
+  -ms-transition: background .55s ease;
+  -o-transition: background .55s ease;
+  transition: background .55s ease;
+}
+
+.container-1 input#search::-webkit-input-placeholder {
+   color: #65737e;
+}
+ 
+.container-1 input#search:-moz-placeholder { /* Firefox 18- */
+   color: #65737e;  
+}
+ 
+.container-1 input#search::-moz-placeholder {  /* Firefox 19+ */
+   color: #65737e;  
+}
+ 
+.container-1 input#search:-ms-input-placeholder {  
+   color: #65737e;  
+}
+
+.container-1 .icon{
+  position: absolute;
+  top: 50%;
+  margin-left: 17px;
+  margin-top: 17px;
+  z-index: 1;
+  color: #4f5b66;
+}
+
+.container-1 input#search:hover, .container-1 input#search:focus, .container-1 input#search:active{
+    outline:none;
+    background: #FF9966; 
+  }
+
+/*Sign Up Foot Form */
+
+.container-2{
+  width: 300px;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+}
+
+  .container-2 input#signup{
+width: 255px;
+height: 34px;
+  background: #ffffff;
+  border: 5px solid #fbad18;
+  font-size: 10pt;
+  float: left;
+  margin-bottom: 10px;
+  color: #262626;
+  padding-left: 45px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 0px;
+ 
+   
+    -webkit-transition: background .55s ease;
+  -moz-transition: background .55s ease;
+  -ms-transition: background .55s ease;
+  -o-transition: background .55s ease;
+  transition: background .55s ease;
+}
+
+.container-2 input#signup::-webkit-input-placeholder {
+   color: #65737e;
+}
+ 
+.container-2 input#signup:-moz-placeholder { /* Firefox 18- */
+   color: #65737e;  
+}
+ 
+.container-2 input#signup::-moz-placeholder {  /* Firefox 19+ */
+   color: #65737e;  
+}
+ 
+.container-2 input#signup:-ms-input-placeholder {  
+   color: #65737e;  
+}
+
+.container-2 .icon{
+  position: absolute;
+  top: 50%;
+  margin-left: 17px;
+  margin-top: 17px;
+  z-index: 1;
+  color: #4f5b66;
+}
+
+.container-2 input#signup:hover, .container-1 input#signup:focus, .container-1 input#signup:active{
+    outline:none;
+    background: #FF9966; 
+  }
+
+
+
+
+  #footer {
+  	border-top: 1px solid #fff;
+  	height:500px;
+		background-image: -ms-linear-gradient(top, #373737 0%, #000000 100%);
+		background-image: -moz-linear-gradient(top, #373737 0%, #000000 100%);
+		background-image: -o-linear-gradient(top, #373737 0%, #000000 100%);
+		background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #373737), color-stop(1, #000000));
+		background-image: -webkit-linear-gradient(top, #373737 0%, #000000 100%);
+		background-image: linear-gradient(to bottom, #373737 0%, #000000 100%);
+}
+
+  .footer_content {
+  	clear:both;
+  	margin: 2% 15%;
+  }
+
+  .company_info {
+  	float:left;
+  	color:white;
+  }
+
+  h2 {
+  	color: #fbad18;
+    text-transform: uppercase;
+    display:inline;
+  }
+
+	.footer_list li {
+		list-style-type: none;
+		margin-bottom: 10px;
+	}
+
+
+  .whitetext {
+	color:white;
+  letter-spacing: 3px;
+}
+
+.signup_form {
+	margin:2% -8%;
+	float:right;
+}
+
+.signupbutton {
+background-color: #ef4123;
+display: inline-block;
+cursor: pointer;
+color: #ffffff;
+margin-top: 5px;
+font-family: Arial;
+font-size: 17px;
+padding: 4px 21px;
+text-decoration: none;
+text-shadow: 0px 0px 0px #e3e3e3;
+}
+
+
+.signupbutton:hover {
+  background-color:#fbad18;
+}
+
+#footer_logo {
+	margin: 7% auto;
+}
+
+
+.viewitem {
+  text-transform: uppercase;
+  text-decoration: bold;
+  font-size: 15px;
+}
+
+.all_content {
+  margin-left: 12%;
+}
+
+#nav_links {
+  color: white;
+font-size: 18px;
+text-transform: uppercase;
+text-decoration: none;
+margin-right: 10px;
+}
+
+.call_header {
+float: right;
+margin: -5% 27%;
+}
+
+.call_info_header {
+  float: right;
+color: white;
+line-height: 7px;
+margin: -8% 3%;
+}
