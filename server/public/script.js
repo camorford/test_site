@@ -5,4 +5,6 @@ jQuery(function ($) {
         $(this).find('ul').stop(true, true).slideUp()
     }).find('ul').hide()
 
-})
+});
+
+
